@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thrifty</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <div class="logo">
+          <img src="logo.png" alt="Thrifty Logo" />
+          <div class="logo-text">
+            <h1>Thrifty</h1>
+            <p>Thrifting at the click of a button</p>
+          </div>
+        </div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="offers.html">Offers</a>
+          <a href="aboutus.html">About Us</a>
+          <a href="help.html">Help</a>
+        </nav>
+        <div class="account-cart">
+          <a href="#" class="account">Account</a>
+          <a href="#" class="cart">Cart (<span id="cart-count"></span>)</a>
+          <i class="cart-icon">🛒</i>
+        </div>
+      </div>
+      <div id="cart"></div>
+      <p id="cart-total"></p>
+      <div id="purchase-button">
+
+      </div>
+    </header>
+
+    <main>
+      <section class="highlights">
+        <h2>This Weeks Highlights!</h2>
+        <div class="highlight-cards" id="highlight-cards"></div>
+      </section>
+
+      <section class="offers">
+        <h2>Offers 50% Off</h2>
+        <div class="offer-cards" id="offer-cards"></div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-images">
+        <img src="tiktok.png" alt="tiktok" />
+        <p>@Thrifty</p>
+        <img src="facebook.png" alt="facebook" />
+        <p>@Thrifty</p>
+        <img src="snapchat.png" alt="snapchat" />
+        <p>@Thrifty</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
